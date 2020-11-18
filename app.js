@@ -207,7 +207,7 @@ function selectBlock(elem) {
                 elem[0].selected = false;
                 selectedBlock = null;
             } else {
-                elem[0].color = "blue";
+                elem[0].color = "gold";
                 elem[0].selected = true;
                 selectedBlock = elem[0];
                 prevPos = elem;

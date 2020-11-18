@@ -1,6 +1,11 @@
 body {
     margin: 0px;
 }
+h1 {
+    display: flex;
+    word-spacing: 12px;
+    justify-content: center;
+}
 #gameContainer {
     height: 300px;
     width: 700px;

@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+}
+#gameContainer {
+    height: 300px;
+    width: 700px;
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px #CCC;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+li {
+    float: left;
+    margin-right: 30px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.buttons {
+    float: left;
+    border: 1px solid black;
+    height: 36px;
+    width: 36px;
+    margin-top: -5px;
+}
+.buttons:hover {
+    background-color: black;
+}
+.arrows {
+    margin: 3px 3px 3px 3px;
+}
+
+.upArrow {
+    width: 0px;
+    height: 0px;
+    border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 30px solid #555;
+}
+
+.downArrow {
+    width: 0px;
+    height: 0px;
+    border-top: 30px solid #555;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+}
+#minMoves {
+    font-size: 20px;
+    display: block;
+    margin-top: -35px;
+    float: right;
+    padding-right: 20px;
+}

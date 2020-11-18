@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tower Of Hanoi</title>
-    <script src="main.js" defer></script>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="edit.js" defer="true"></script>
 </head>
 <body>
-    
+    <div id="gameContainer">
+        <ul>
+            <li id="num"></li>
+            <li>
+                <div class="buttons down"><div class="arrows downArrow"></div></div>
+                <div class="buttons up"><div class="arrows upArrow"></div></div>
+            </li>
+            <li id="moveCount">Move Count: 0</li>
+            <li id="autoSolve">Auto Solve</li>
+            <li id="reset">Reset</li>
+        </ul>
+        <canvas width="700" height="300"></canvas>
+        <div id="minMoves">Minimum Moves</div>
+    </div>
+        
 </body>
 </html>
